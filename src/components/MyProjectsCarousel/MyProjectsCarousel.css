@@ -1,0 +1,28 @@
+/* MY PROJECTS */
+.slideshow .react-multi-carousel-list  {
+  min-height: 300px;
+ }
+ 
+ .slide h3 {
+   color: gray;
+   font-weight: 500 !important;
+ }
+ 
+ .slide img {
+   opacity: .85;
+ }
+ 
+ .slide a:hover {
+   text-decoration: none;
+ }
+ 
+ .slide:hover img {
+   opacity: 1;
+   transition: 1s;
+ }
+ 
+ .slide a:hover h3 {
+   color: #000;
+   transition: 1s ease;
+ }
+ 

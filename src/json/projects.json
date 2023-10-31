@@ -1,0 +1,116 @@
+{
+  "atlanta": {
+    "class":"atlanta",
+    "link":"/atlanta",
+    "imgUrl": "./images/desktop/atlanta/atlanta-INDEX-desktop.jpg",
+    "name": "Atlanta Motorcars"
+  },
+  "autonation": {
+    "class":"autonation",
+    "link":"",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "AutoNation USA"
+  },
+  "avondale": {
+    "class":"avondale",
+    "link":"/avondale-select",
+    "imgUrl": "./images/desktop/avondale/avondale-INDEX.jpg",
+    "name": "Avondale Select"
+  },
+  "bentley": {
+    "class":"bentley",
+    "link":"",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "Bentley Motors"
+  },
+  "carousel": {
+    "class":"carousel",
+    "link":"",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "Carousel Online"
+  },
+  "carter": {
+    "class":"carter",
+    "link":"/carter-meyers",
+    "imgUrl": "./images/desktop/cartermyers/carter-INDEX.jpg",
+    "name": "Carter Meyers Automotive"
+  },
+  "fredbeans": {
+    "class":"fredbeans",
+    "link":"/fredbeans",
+    "imgUrl": "./images/desktop/fredbeans/fredbeans-INDEX.jpg",
+    "name": "Fred Beans Auto Group"
+  },
+  "genesis": {
+    "class":"genesis",
+    "link":"/genesis",
+    "imgUrl": "./images/desktop/genesis/genesis-INDEX.jpg",
+    "name": "Genesis Motors"
+  },
+  "idg": {
+    "class":"idg",
+    "link":"",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "Implementation Design Gallery"
+  },
+  "ineos": {
+    "class":"ineos",
+    "link":"",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "INEOS"
+  },
+  "lamborghini": {
+    "class":"lamborghini",
+    "link":"/lamborghini",
+    "imgUrl": "./images/desktop/lamborghini/lamborghini-INDEX-1.jpg",
+    "name": "Lamborghini"
+  },
+  "lithia": {
+    "class":"lithia",
+    "link":"/lithia",
+    "imgUrl": "./images/desktop/lithia/lithia-index.jpg",
+    "name": "Lithia Motors"
+  },
+  "luther": {
+    "class":"luther",
+    "link":"/luther",
+    "imgUrl": "./images/desktop/luther/luther-INDEX.jpg",
+    "name": "Luther Automotive"
+  },
+  "mileone": {
+    "class":"mileone",
+    "link":"/luther",
+    "imgUrl": "./images/desktop/coming/coming-soon.jpg",
+    "name": "Mileone Automotive"
+  },
+  "nahant": {
+    "class":"nahant",
+    "link":"https://www.nahantbeach.com/",
+    "imgUrl": "./images/desktop/nahant/nahant-INDEX.png",
+    "name": "Nahant Beach"
+  },
+  "salt-lake": {
+    "class":"salt-lake",
+    "link":"/salt-lake-city",
+    "imgUrl": "./images/desktop/saltlake/saltlake-INDEX.jpg",
+    "name": "Salt Lake City Motorcars"
+  },
+  "splash": {
+    "class":"splash",
+    "link":"/splash",
+    "imgUrl": "./images/desktop/splash/splash1.jpg",
+    "name": "Splash Page Designs"
+  },
+  "sunwise": {
+    "class":"sunwise",
+    "link":"/sunwise",
+    "imgUrl": "./images/desktop/sunwise/sunwise-INDEX.jpg",
+    "name": "Sunwise Automotive Group"
+  },
+  "ogara": {
+    "class":"ogara",
+    "link":"/ogara-coach",
+    "imgUrl": "./images/desktop/ogara/ogara-INDEX.jpg",
+    "name": "O'Gara Coach"
+  }
+}

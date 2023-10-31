@@ -1,0 +1,74 @@
+/* HERO */
+.home-hero {
+  height: 50vh;
+  align-items: center;
+}
+
+/* LEFT HERO */
+.home-left-hero {
+  background: #04a9e0;
+  justify-content: flex-end;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.home-left-hero .content {
+  width: min-content;
+  text-align: right;
+}
+
+.home-left-hero .content p {
+  color: #fff;
+  font-size: 9vh;
+  line-height: 8.5vh;
+  font-weight: 900;
+}
+
+/* RIGHT HERO */
+.home-right-hero {
+  background: #f5f6f7;
+  border-radius: 0px 7px 7px 0px;
+  padding: 0 5%;
+}
+
+.home-right-hero li {
+  list-style: none;
+}
+
+.home-right-hero li img {
+  width: 7vh;
+  height: auto;
+}
+
+.home-right-hero .content h1 {
+  font-size: 4vh;
+  line-height: 4.5vh;
+  color: transparent;
+  -webkit-text-stroke: 1px #04a9e0;
+  background: url('../../back-blue.png');
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: test 20s linear infinite;
+}
+
+@keyframes test{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+.home-hero .filter-color {
+  filter: invert(92%) sepia(96%) saturate(3961%) hue-rotate(276deg) brightness(86%) contrast(90%);
+}
+
+.home-hero .filter-color:hover {
+  filter: invert(50%) sepia(14%) saturate(1319%) hue-rotate(262deg) brightness(89%) contrast(89%);
+}
+
+.home-hero li:hover  {
+    transform: translateY(5px);
+}
+
+.home-hero li {
+  display: inline-block;
+  transition: all .3s linear;
+} 

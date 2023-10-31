@@ -1,0 +1,47 @@
+{
+  "senior": {
+      "company":"COX AUTOMOTIVE | DEALER.COM",
+      "position":"Senior Web Developer",
+      "time":"January 2017 - Present",
+      "location":"Manhattan Beach, CA",
+      "class":"senior",
+      "description": [
+        "Envision and design custom luxury websites for exotic car dealers, ex: O’Gara Coach. Collaborate with sales and engineering teams to deliver innovative web experiences. Scope of work encompasses custom navigation, multiple design mockups of the index page, vehicle brand pages, model pages, landing pages, and custom inventory pages across desktop and mobile platforms.",
+        "Design and develop websites for large, national automotive dealership groups, including: Asbury Automotive Group, AutoNation, Hendrick Automotive Group, and Lithia Motors",
+        "Lead & mentor junior Web Developers on design & web development techniques and best practices to improve their competencies. Create and administer design challenges to provide safe, yet realistic experience to working with custom design clients. Technical skills include: CSS, HTML, QA process, Photoshop, InVision, and logo design among others.",
+        "Collaborate with our internal UX team to optimize inter-departmental relationships, establish a community of practice for design, identify and eliminate process deficiencies, and introduce process enhancements.",
+        "Design custom branding logos for department sub-teams including: operations, quality assurance, web development team, and those of our homegrown web-based applications logos: Gopher & Merlin.",
+        "Developed and author web-accessible automation scripts, connecting multiple internal systems, to streamline repetitive tasks for client-facing Project Management teams.",
+        "Examples of site work:",
+        "Website design and development for industry-leading subscription-based luxury car rental and concierge service, Avondale Select. Including individual designs for their Index, application, pricing, testimonials, and how it works pages.",
+        "Collaborated with a fellow developer to create six unique splash page designs, used as company base templates.",
+        "Full redesign of Lithia Motors website ($384k monthly recurring revenue, $1m advertising budget). Exceeded client’s expectations to deliver a function-forward and design-centered website."
+      ]
+    },
+  
+  "junior": {
+      "company":"DEALER.COM",
+      "position":"Web Developer II",
+      "time":"January 2014 - January 2017",
+      "location":"Burlington, VT",
+      "class":"junior",
+      "description": [
+        "Provided Inaugural website design creative and build for the Genesis Brand, launched for 250+ dealerships nationwide.",
+        "Organized and led Community of Excellence sessions with internal Support Development team to discuss issues and trends, improve deficiencies, explore new and emerging technologies, and establish a community of practice for development.",
+        "Managed queue of case work to deliver dev requests for client-facing Project Managers. This included launching sites, adjusting page layouts, styling with extensive CSS, implementing third party codes, full and partial site customizations for clients using HTML, JavaScript, CSS, jQuery, and velocity."
+      ]
+    },
+  
+  "intern": {
+      "company":"DEALER.COM",
+      "position":"Quality Assurance Intern",
+      "time":"February 2013 – January 2014",
+      "location":"Burlington, VT",
+      "class":"intern",
+      "description": [
+        "Responsible for reviewing websites for accuracy: related to aesthetics, functionality, and content before sites are launched.",
+        "Implemented third-party features to client's websites which included: call-tracking numbers, language selection buttons, and live chat tools.",
+        "Meticulous attention to detail, and the ability to make judgments on the quality of a website and suggest improvements to the QA process."
+        ]
+      }
+  }

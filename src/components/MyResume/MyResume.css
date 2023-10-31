@@ -1,0 +1,77 @@
+/* RESUME POSITIONS*/
+.position-info .position-experience li::marker {
+  color: red;
+}
+.position-info .position-experience li {
+  list-style-type: disc;
+}
+
+.position-info h2 {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.position-info h3 {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.position li.position-info::before {
+  content: "";
+  background: white;
+  display: block;
+  right: 29px;
+  top: 31px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 3px solid RED;
+  position: relative;
+  z-index:1;
+}
+
+.position li {
+  position: relative;
+  list-style: none;
+}
+
+.position li.position-info::after {
+    width: 3px;
+    height: calc(100% + 36px);
+    content: "";
+    display: block;
+    position: absolute;
+    left: -19px;
+    top: 33px;
+    background: red;
+    transform: scaleY(1);
+    transition: transform 0.4s ease 0s;
+    transform-origin: center top;
+}
+
+.position.intern li.position-info::after {
+  background: transparent;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.resume-button .btn-primary {
+  color: #fff;
+  font-weight: bold;
+  margin: 30px;
+  background-color: #04a9e0;
+  padding: 20px 30px;
+}
+
+

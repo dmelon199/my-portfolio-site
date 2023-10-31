@@ -1,0 +1,255 @@
+/* Desktop PROJECTS PAGE */
+.desktop-skin {
+  position: relative;
+  background-size: 100%!important;
+  background-position: center!important;
+  background: 0 0;
+  margin: 0 auto;
+  height: 895px;
+  width: 1100px;
+}
+
+.desktop-skin .skin-overlay {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 81;
+}
+
+.viewport {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  vertical-align: top;
+  height: 575px;
+  z-index: 24;
+  width: 1015px;
+  margin: 41px 42px;
+}
+
+.desktop_screen {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.scroll-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  outline: none;
+  cursor: -webkit-grab;
+}
+
+/* Mobile PROJECTS PAGE */
+.mobile-skin {
+  position: relative;
+  background-size: 100%!important;
+  background-position: center!important;
+  background: 0 0;
+  margin: 0 auto;
+  height: 855px;
+  width: 420px;
+}
+
+.mobile-skin-overlay {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 81;
+}
+
+.mobile-viewport {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  vertical-align: top;
+  height: 815px;
+  z-index: 24;
+  width: 375px;
+  margin: 17px 20px;
+}
+
+.mobile_screen {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.mobile-scroll-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  outline: none;
+  cursor: -webkit-grab;
+}
+
+
+/* SLIDESHOW */
+.carousel-container {
+  margin: 20px;
+}
+
+.selected-image {
+  background-repeat: no-repeat;
+}
+
+
+/* PROJECT PAGE */
+.project-column {
+  text-align: center;
+  margin: 20px 0px;
+  border-radius: 7px;
+  flex-wrap: wrap;
+}
+
+.project-column a {
+  display: block;
+  text-align: center;
+  margin: 0 10%;
+  border-radius: 7px;
+  border: 2px solid #ebecee;
+  transition: .5s;
+}
+
+.project-column a:hover {
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
+  transition: .5s;
+  text-decoration: none;
+}
+
+.project-column h3 {
+  margin: 0px;
+  padding: 25px 0px;
+}
+
+.project-image {
+  height: 225px;
+  min-width: 150px;
+  border-radius: 6px 6px 0px 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-image {
+  height: 225px;
+  min-width: 150px;
+  margin: 0 10%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project-column .logo-heading {
+  margin: 0 10%;
+  padding: 25px 0px;
+  border: none;
+}
+
+
+/* MOBILE STYLES */
+@media only screen and (max-device-width: 600px) {
+  .experience-content ul {
+    padding: 0px !important;
+  }
+  h1 {
+    font-size: 30px  !important;
+  }
+  .slide h3,.skill-column h3 {
+    font-size: 20px !important;
+  }
+  .skill-column {
+    width: 50%;
+  }
+  .experience-container {
+    padding-right: 0px !important;
+  }
+  .position-info h2 {
+    font-size: 20px;
+  }
+  .position-info h3 {
+    font-size: 17px !important;
+  }
+  .position-info h4 {
+    font-size: 15px !important;
+  }
+  .my-education-content h2 {
+    font-size: 20px;
+  }
+  .my-education-content .logo {
+    display:none
+  }
+  .resume-button .btn-primary {
+    margin: 0px !important;
+  }
+  .my-education-content .info,.my-education-content {
+    padding: 0px !important;
+  }
+  .my-education-wrapper .my-education-content {
+    padding-top: 10px !important;
+  }
+  body .header {
+    justify-content: center;
+    padding: 2rem !important;
+  }
+  .mobile-wrapper {
+    background: transparent;
+  }
+  .mobile-skin-overlay {
+    width: 76%;
+    background-size: contain;
+  }
+  .mobile-viewport {
+    height: 530px;
+    width: 245px;
+    margin: 13px;
+  }
+  .selected-image-mobile {
+    background-size: contain;
+    background-position: inherit;
+  }
+  .mobile-scroll-wrap {
+    padding-right: 0px;
+  }
+  .mobile-skin {
+    height: 556px;
+    width: 360px;
+  }
+  .header p, .desktop-wrapper {
+    display: none;
+  }
+  .carousel-images {
+    display: inline-block;
+  }
+  .carousel-image {
+    margin: 10px;
+    height: 120px;
+    display: inline-block;
+    min-width: 110px;
+  }
+  .welcome-left-hero .content p {
+    font-size: 60px;
+  }
+  .welcome-hero.welcome-right-hero {
+    padding: 0 2rem !important;
+  }
+  .project-column h3 {
+    font-size: 4.5vw !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .skill-column  {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
